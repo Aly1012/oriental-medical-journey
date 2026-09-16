@@ -1,7 +1,7 @@
-name = "orientalmedicaljourney"
-compatibility_date = "2024-09-23"
-pages_build_output_dir = "."
+name = "oriental-medical-journey"
+compatibility_date = "2026-09-16"
 
-# Static site, no build step required.
-# Deploy with:  wrangler pages deploy .
-# (run from inside this medical-tourism/ directory)
+# Static site (东方医旅 / Oriental Medical Journey) — no build step.
+# Serve everything in the repo root as a Workers static-assets project.
+[assets]
+directory = "./"
